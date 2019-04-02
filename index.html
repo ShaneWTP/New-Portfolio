@@ -280,8 +280,8 @@
 										<h4>Full-Stack Web Development</h4>
 
 										<p>
-											Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri
-											suavitate similique in. Vide assum conceptam eum.
+											I have experience using both front-end and back-end web development tools
+											and languages.
 										</p>
 
 									</div>
@@ -350,7 +350,7 @@
 									<h4>Node</h4>
 
 									<div class='bar'>
-										<div class='percent' style='width:15%;'></div>
+										<div class='percent' style='width:50%;'></div>
 									</div>
 
 								</div>
@@ -771,12 +771,14 @@
 													This node application allows a user to search for concert
 													information, spotify song information, and movie information. The
 													user must use the "node liri.js" application call and then type in a
-													command after (conert-this for concert info, spotify-this-song for
-													song info, or movie-this for movie info). After the command is
+													command after ('concert-this' for concert info, 'spotify-this-song'
+													for
+													song info, or 'movie-this' for movie info). After the command is
 													entered, the user can type in whatever search query they are looking
 													for.<br><br>
-													Example: node liri.js concert-this Kelly Clarkson, this would give
-													you Kelly Clarkson's upcoming concert information.)
+
+													Example: node liri.js concert-this Kelly Clarkson<br>
+													This would give you Kelly Clarkson's upcoming concert information.
 												</p>
 
 												<a href="https://github.com/ShaneWTP/liri-node-app">Github
@@ -820,55 +822,14 @@
 
 								<div class='contact-form'>
 
-									<form id='contact-form' data-toggle='validator' method='post' action='https://formspree.io/shane.maziekien9@gmail.com'>
+									<form id='contact-form' data-toggle='validator' method='POST'
+										action='https://formspree.io/shane.maziekien9@gmail.com'>
 
-										<div id='contact-form-result'></div>
-
-										<div class='row'>
-
-											<div class='col-md-6'>
-												<div class='form-group'>
-
-													<input type='text' class='form-control' placeholder='Name'
-														name='name' required>
-													<div class='help-block with-errors'></div>
-
-												</div>
-											</div>
-
-											<div class='col-md-6'>
-												<div class='form-group'>
-
-													<input type='email' class='form-control' placeholder='Email'
-														name='email' required>
-													<div class='help-block with-errors'></div>
-
-												</div>
-											</div>
-
+										<div><input id="email" type="email" name="email" placeholder="Your email"></div>
+										<br>
+										<div><textarea id="textarea" name="message" placeholder="Message"></textarea>
 										</div>
-
-										<div class='form-group'>
-
-											<input type='text' class='form-control' placeholder='Subject' name='subject'
-												required>
-											<div class='help-block with-errors'></div>
-
-										</div>
-
-										<div class='form-group'>
-
-											<textarea class='form-control' placeholder='Message' name='message' rows='5'
-												required></textarea>
-											<div class='help-block with-errors'></div>
-
-										</div>
-
-										<div class='form-group text-center'>
-											<button type='submit' class='btn-custom btn-color'>
-												Send Message
-											</button>
-										</div>
+										<div><button type="submit" class='btn-custom btn-color'>Submit</button></div>
 
 									</form>
 
