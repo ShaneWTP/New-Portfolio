@@ -1214,14 +1214,6 @@ body.section-switching.up .animation-block{
 	margin:0;
 	margin-top:5px;
 }
-#email {
-	width: 400px; 
-	height: 40px;
-}
-#textarea {
-	width: 800px; 
-	height: 300px;
-}
 @media(min-width:992px){
 	.contact-info-icons{
 		padding-left:30px;
